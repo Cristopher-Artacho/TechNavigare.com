@@ -1,0 +1,76 @@
+#grid_layout{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 800px 600px 400px;
+    display: grid;
+}
+
+#Help_Center_Layout{
+    grid-row: 3;
+    grid-column: 1/span 3;
+    text-align: center;
+    display: inline-table;
+    padding-top: 200px;
+    background-image: url(background_2.png);
+    background-size: cover;
+}
+
+.title{
+    font-family: 'Cabin', serif;
+    font-size: 20px;
+
+}
+.description{
+    font-family: 'Raleway', serif;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#live-support-chat-info{
+    font-family: 'Raleway', serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+#live-chat_layout{
+    grid-column: 1/span 3;
+    grid-row: 4;
+    padding-left: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+#live_support_chat_input{
+    width: 700px;
+    height: 200px;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+}
+#submit_button{
+    margin-top: 10px;
+    font-family: 'Quicksand', serif;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    background-color: #FFBD59;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+#footer{
+    grid-row: 5;
+    grid-column: 1/span 3;
+    background-image: url(layout_design.jpg);
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.table_size{
+    width: 400px;
+    height: 70px;
+    padding-left: -150px;
+    padding-right: -150px;
+}
